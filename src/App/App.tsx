@@ -1,5 +1,6 @@
 import {Navbar} from "../Components/Navbar";
 import Jeff from '../Assets/06_LifeSaver_Jefferson.jpeg'
+import Proof1 from '../Assets/Proof.png';
 import "../Styles/App.css";
 
 function App() {
@@ -12,13 +13,13 @@ function App() {
         <div className="flex-col main text-center"
         >
           <img src={Jeff}
-          className="max-w-sm rounded-lg shadow-2xl" 
+          className="rounded-lg shadow-2xl" 
           />
 
           <h1 
           className="text-5xl  font-bold py-6"
           >
-            Lifesaver Project Proposal
+            Blog Entry #1 Lifesaver Project Proposal
           </h1>
           <p 
           className="py-6">
@@ -50,8 +51,34 @@ function App() {
           className="btn btn-primary" 
           download
           >
-          Download PDF
+          Download Proposal PDF
           </a>
+
+          <h1 
+          className="text-5xl  font-bold py-6"
+          >
+            Blog Entry #2 Update on Progress
+          </h1>
+          <p 
+          className="py-6">
+            Since our last entry we met with the design team from DSGN 160. <br />
+            During this meeting we documentated an outline on how their ideas can be implemented with our project requirements. <br />
+            The document can be downloaded below.  <br />
+            We started working on the application itself by creating the scene for Jeff and the backpack that will spawn the medical supplies needed. <br />
+            Below is a screenshot of the scene so far. 
+          </p>
+          <a 
+          href="/FinalProjectOutline.pdf" 
+          className="btn btn-primary" 
+          download
+          >
+          Download Outline PDF
+          </a>
+          <img 
+          alt="Screenshot of work"
+          className="py-6 rounded-lg shadow-2xl"
+          src={Proof1}  
+          />
         </div>
       </div>
     </>
