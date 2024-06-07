@@ -1,6 +1,7 @@
 import {Navbar} from "../Components/Navbar";
 import Jeff from '../Assets/06_LifeSaver_Jefferson.jpeg'
 import Proof1 from '../Assets/Proof.png';
+import Proof2 from '../Assets/Proof2.png';
 import "../Styles/App.css";
 
 function App() {
@@ -78,6 +79,23 @@ function App() {
           alt="Screenshot of work"
           className="py-6 rounded-lg shadow-2xl"
           src={Proof1}  
+          />
+
+          <h1 
+          className="text-5xl  font-bold py-6"
+          >
+            Blog Entry #2 Update on Progress
+          </h1>
+          <p 
+          className="py-6">
+            Since our last entry we worked on the AR scene where we have to scan, input symptoms, and hand Jeff medical items <br />
+            In addition, we also worked the VR scene where Jeff is in a forest to calm down his psychosis. <br />
+            Below is a screenshot of the VR scene. 
+          </p>
+          <img 
+          alt="Screenshot of work"
+          className="py-6 rounded-lg shadow-2xl"
+          src={Proof2}  
           />
         </div>
       </div>
